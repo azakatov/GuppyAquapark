@@ -1,3 +1,10 @@
+/* Selle javascripti allikas: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
+ * Seda scripti kasutades saab kinnitada menüüd ülemäärele. 
+ * See script teeb veebilehe menüü kasutamist mugavaks.
+ */
+
+
+
 // When the user scrolls the page, execute WindowOnScroll
 window.onscroll = function() {WindowOnScroll()};
 
