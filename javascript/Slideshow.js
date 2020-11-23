@@ -1,3 +1,9 @@
+/* Selle javascripti allikas: https://www.w3schools.com/howto/howto_js_slideshow.asp
+ * See javascript võimaldab teha slideshowi, mis on hea mõte selleks, et näidata pilte, sellest, millega on seotud veebileht.
+ * Slideshowi kasutades ei kasutata liiga palju veebilehe ruumi.
+ */
+
+
 var slideIndex = 0;
 showSlides();
 
