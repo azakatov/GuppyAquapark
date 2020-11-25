@@ -114,19 +114,23 @@ section {
    	overflow: auto;
     background-color: #CBEEFF;
 	padding-right: 30px;
+	margin-top: 30px;
+	margin-bottom: 50px;
     padding-left: 30px;
 	border-radius: 15px 50px 30px;
 	box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.3);
 }
 h1 {
 	color: #1761a0;
-	font-size: 30px;
+	font-size: 40px;
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
-p {
-	margin-top: 15px;
-	margin-bottom: 15px;
+h2 {
+	color: #1761a0;
+	font-size: 25px;
+	margin-top: 10px;
+	text-align: center;
 }
 tbody, td, tr, table {
 	margin: 0px;
@@ -140,6 +144,13 @@ table {
 	margin-left: 20%; 
 	margin-right: 20%;
 }
+.warning {
+	line-height: 1.5;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-family: Arial, Helvetica, self-serif;
+	color: red;
+}
 /* Solution from: https://stackoverflow.com/questions/3186688/drop-shadow-for-png-image-in-css */
 .shadowed {
     -webkit-filter: drop-shadow(3px 3px 3px #222);
@@ -152,7 +163,16 @@ table {
 	height: 20px;
 	vertical-align: bottom;
 }
+/* Images from: https://unsplash.com/ */
 .slideshowimg {
-	width: 100%;
+	width: 50%;
+	float: right;
 	border-radius: 15px 15px 15px 15px;
+	margin: 15px;
+}
+p {
+	line-height: 1.5;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: Arial, Helvetica, self-serif;
 }
