@@ -1,0 +1,24 @@
+/* Selle javascripti allikas: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
+ * Seda scripti kasutades saab kinnitada menüüd ülemäärele. 
+ * See script teeb veebilehe menüü kasutamist mugavaks.
+ */
+
+
+
+// When the user scrolls the page, execute WindowOnScroll
+window.onscroll = function() {WindowOnScroll()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function WindowOnScroll() {
+	if (window.pageYOffset >= sticky) {
+		navbar.classList.add("sticky")
+	} else {
+		navbar.classList.remove("sticky");
+	}
+}
