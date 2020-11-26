@@ -175,4 +175,31 @@ p {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	font-family: Arial, Helvetica, self-serif;
+	text-align: left;
+}
+#more{display:none;}
+.card {
+  width:300px;
+  background:#2979FF;
+  padding:30px;
+  color:#fff;
+  font-size: 18px;
+  box-shadow: 0  0 5px 4px rgba(0,0,0,0.33);
+}
+button {
+  padding: 10px 15px;
+  border: black 2px solid;
+  color:black;
+  background: transparent;
+  transition: 0.5s;
+  cursor: pointer;
+}
+button:hover {
+  transform: scale(1.2) translateX(8px);
+}
+.saunad{
+	margin: 10px 10px 10px 10px;
+	float:center;
+	width:600px;
+	height:auto;
 }
