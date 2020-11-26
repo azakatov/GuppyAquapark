@@ -3,16 +3,16 @@
 
 	<head>
 		<meta charset="UTF-8">
-		<title>Guppy Veekeskus</title>
+		<title>Saunakeskus :: Guppy Aquapark</title>
 		<link rel="stylesheet" href="style.css">
 		<script src="javascript/hyphenate.js"></script>
 		<script src="javascript/WindowOnScroll.js" defer></script>
 		<script src="javascript/Slideshow.js" defer></script>
-		<script src="javascript/Saunad.js" defer></script>
+		<script src="javascript/ReadMore.js" defer></script>
 	</head>
 	
 	<body>
-		<table>
+		<table class="layout">
 			<tbody>
 				<tr>
 					<td class="sticky">
@@ -22,18 +22,18 @@
 					</td>
 					<td class="sticky">
 						<ul id="navbar">
-							<li><a href="#">Veepark</a></li>	
+							<li><a href="veepark.html">Veepark</a></li>	
 							<li class="dropdown">
 								<a class="dropbtn" href="#">Teenused</a>
 									<div class="dropdown-content">
-										<a href="Saunakeskus.html">Saunakeskus</a>
-										<a href="#">Veepark</a>
-										<a href="">Jõusaal</a>
-										<a href="">Massaaž</a>
+										<a href="saunakeskus.html">Saunakeskus</a>
+										<a href="veepark.html">Veepark</a>
+										<a href="jousaal.html">Jõusaal</a>
+										<a href="massage.html">Massaaž</a>
 									</div>
 							</li>
-							<li><a href="#">Hinnakiri</a></li>
-							<li><a href="#">Meist</a></li>
+							<li><a href="hinnakiri.html">Hinnakiri</a></li>
+							<li><a href="meist.html">Meist</a></li>
 							<li><a href="kontakt.html">Kontakt</a></li>
 						</ul>
 					</td>
@@ -43,50 +43,53 @@
 						<div class="sectionBG">
 									<div>
 										<h1>Saunakeskus</h1>
+										<img class="img" src="images/saunakeskus/iglusaun.jpg" alt="Saun">
 										<p>
-											Saunaklubi pakub külalistele lõõgastavat puhkust saunaklubis.
-											Saunakeskuses on suurepärased saunad ja muud lõõgastamisvahendid.
-											<span id="dots">-></span><span id="more">
-											Leilisaun 100С on kasulik kehale. Vähendab väsimust ja noorendab.
-											<img class="saunad" src="Leilisaun_100.jpg" alt="AquaGuppy">
-											<br>
-											Leilisan 85 C on mõeldud nendele, kes ei kannata kõrget temperatuuri. Värskendab ja lõõgastub.
-											<img class="saunad" src="Leilisaun_80.jpg" alt="AquaGuppy">
-											<br>
-											Aurusaun 60 C on väga kasulik. Aur puhastab nahka, parandab naha struktuuri, avab poorisid ja aitab higinäärmetel eritada kehast jääkaineid.
-											<img class="saunad" src="Aurasaun.jpg" alt="AquaGuppy">
-											<br>
-											Sanaarium 55 C on lõõgastumissaun. Rahustab ja värskendab.
-											<img class="saunad" src="Sanaarium.jpg" alt="AquaGuppy">
-											<br>
-											Jaapani vann 40 C lõõgastuv kuuma veega vann. Puhastab, noorendab ja värskendab.
-											<img class="saunad" src="jaapani_vann.jpg" alt="AquaGuppy">
-											<br>
-											Mullivann 33 C lõõgastuv soe vann koos veemassaažiga vann.
-											<img class="saunad" src="Mullivann.jpg" alt="AquaGuppy">
-											<br>
-											Saunaklubis on ka olemas väliterass, kus on kuuma õhuga iglusaun ja karastavalt jahedaga mullivann.
-											<img class="saunad" src="iglusaun.jpg" alt="AquaGuppy">
-  </span></p>
-<button id="bttn" onclick="readMore()">Loe lahemalt</button>
-</div>
-										
-										<h2>
-											Oleme avatud iga päev! 
-											<br> E-K: 6:30-22:00
-											<br> N-R: 9:00-23:00
-											<br> L-P: 9:00-22:00
-										</h2>
-										
-										<p class="warning">
-										<!-- From AuraKeskus.ee !-->
-											COVID19 haigusnähtudega isikul ei ole lubatud Guppy Aquapargi teenuste tarbimine. Guppy Aquapargi teenuste tarbimine ei ole lubatud klientidele, kes on olnud külastusele eelneva 14 päeva jooksul lähikontaktis COVID19 diagnoosiga isikuga või kellele on määratud isolatsiooni kohustus. Piletit ostes kinnitab klient, et tal ei esine mistahes COVID19 sümptomeid, ta ei ole olnud lähikontaktis COVID19 diagnoosiga isikuga ja tal ei ole isolatsiooni kohustust. Juhul, kui pärast pileti ostmist avastatakse kliendil COVID19 haigusnähud või selgub, et klient on olnud viimase 14 päeva jooksul COVID19 diagnoosiga isiku lähikontaktne või on isolatsiooni kohustusega, tuleb vastaval isikul ja tema lähikontaksetel Guppy Aquapargist viivitamatult lahkuda. Pileti maksumust ei hüvitata. Täname mõistmise eest.
+											Luksuslikus saunakeskuses saavad meie külalised sukelduda veeparadiisi hellitavatesse mõnudesse. Lisaks auru- ja kolmele leilisaunale, saad siin nautida soolakivi-, puukütte- ja kadakasauna mõnusid. Meie saunameistrid hoolitsevad meeldiva atmosfääri eest regulaarsete saunarituaalide ajal, muutes saunaskäigu eksklusiivseks ja meeldejäävaks kogemuseks. Saunaskäimise vahele saad end jahutada mõnusates spaa-basseinides ja mullivannides ning nautida värskendavaid kokteile spaa baaris.
 										</p>
 										
+										<button id="bttn" onclick="readMore()">Loe lähemalt meie saunatest</button><br>
+										<span id="dots"></span>
+										<section>
+										<span id="more">
+											<table>
+												<tbody>
+												  <tr>
+													<td><img class="img" src="images/saunakeskus/Leilisaun_100.jpg" alt="Saun"></td>
+													<td>Leilisaun 100°C on kasulik kehale. Vähendab väsimust ja noorendab. Saunaga tuleb ettevaatlik olla südame- ja vererõhuhaigustega inimestel. Saunakuumust peaksid vältima epilepsia, peaaju põletikku põdenud ja kaugele arenenud veresoonkonna-, südame- ja neerupuudulikkusega haiged.</td>
+												  </tr>
+												  <tr>
+												  	<td><img class="img" src="images/saunakeskus/Leilisaun_80.jpg" alt="Saun"></td>
+													<td>Leilisaun 85°C on mõeldud nendele, kes ei kannata kõrget temperatuuri. Värskendab ja lõõgastub. Saunaga tuleb ettevaatlik olla südame- ja vererõhuhaigustega inimestel. Saunakuumust peaksid vältima epilepsia, peaaju põletikku põdenud ja kaugele arenenud veresoonkonna-, südame- ja neerupuudulikkusega haiged.</td>
+												  </tr>
+												  <tr>
+													<td><img class="img" src="images/saunakeskus/Aurasaun.jpg" alt="Saun"></td>
+													<td>Aurusaun 60°C on väga kasulik. Aur puhastab nahka, parandab naha struktuuri, avab poorisid ja aitab higinäärmetel eritada kehast jääkaineid. Arstide sõnul on täpselt doseeritud saunaprotseduurid head neerudele. Alaneb vererõhk hüpertoonia ja stenokardia haigetel, vähenevad haigusnähud üleväsimuse puhul, soodustatud on haavade paranemine. Kuumutamist soovitatakse ka neile, kes põevad kroonilist polüartriiti, ishiasi, radikuliiti ja mõningaid ainevahetushaigusi.<br></td>
+												  </tr>
+												  <tr>
+													<td><img class="img" src="images/saunakeskus/Sanaarium.jpg" alt="Saun"></td>
+													<td>Sanaarium 55°C on lõõgastumissaun. Rahustab ja värskendab. Arstid väidaavad, et saunaleil mõjub neljas suunas. Esiteks, tugevneb naha, välimiste lihaste ja hingamisteede tegevus; teiseks, tugevnenud higistamise puhul (saunaleilis kaob kehast umbes 200-1500g niiskust) väheneb kehakaal; kolmandaks, kutsub esile vegetatiivseid närvisüsteemi muutusi, mis tugevdavad protseduuri üldist efekti; neljandaks, avaldab psüühilist mõju.</td>
+												  </tr>
+												  <tr>
+													<td><img class="img" src="images/saunakeskus/jaapani_vann.jpg" alt="Saun"></td>
+													<td>Jaapani vann 40°C lõõgastuv kuuma veega vann. Puhastab, noorendab ja värskendab. Saunaga tuleb ettevaatlik olla südame- ja vererõhuhaigustega inimestel. Saunakuumust peaksid vältima epilepsia, peaaju põletikku põdenud ja kaugele arenenud veresoonkonna-, südame- ja neerupuudulikkusega haiged.</td>
+												  </tr>
+												  <tr>
+													<td><img class="img" src="images/saunakeskus/Mullivann.jpg" alt="Saun"></td>
+													<td>Mullivann 33°C lõõgastuv soe vann koos veemassaažiga vann. Kuidas saab lihtne veejuga nii palju kasu tuua? Seda, et meie igapäevane vanniskäik kujutab endast kõige elementaarsemat vesiravi vormi, võib lugeda tõestatud faktiks. Õhusegused veejoad, mille temperatuur on ligikaudu 37 °C, parandavad vereringet ja hapniku omistamise võimet ning tõstavad naha ja lihaste toonust.</td>
+												  </tr>
+												</tbody>
+												</table>
+											</span>
+										</section>
 										
+										<h2>Ainult positiivsed mõjud ja muljed</h2>
+										<p>Saunaskäimine eeldab, et keha kuumutatakse leiliruumis üles ja jahutatakse siis maha. Sellist tegevust tuleks korrata vaheldumisi kuni kolm korda. Võidu peale leilivõtmist peavad tohtrid oma keha ja tervise suhtes lugupidamatuks tegevuseks. Tervisehäirete vältimiseks soovitavad tohtrid piirduda 85-90°Cse kuumusega. Vaid saunaga karastunud inimesed võivad endale lubada enamat. Et õnnetusi ei juhtuks, tuleb saunas jälgida niiskuse ja temperatuuri omavahelist suhet. Mida kõrgem temperatuur, seda madalam peaks olema niiskuse protsent. Kõige raskem on taluda sauna, kus on nii niiskus kui kuumus väga kõrge. Kui inimene on terve ja harjunud end pärast leili külma veega karastama, võib ta end ka tiiki kasta. Pea ees saunalavalt vette tormata ei soovitata neile, kes pole end varem karastanud. Järsk temperatuurimuutus võib tekitada spasme. Saunast väljudes peaks inimesel olema aega puhkeruumis maha jahtusa, sest aeglane jahtumine kasulik, kuna vastasel korral tõmbuvad veresooned liig kiiresti kokku ning kaob veresooni lõõgastav efekt.</p>
 									</div>
-								</div>
-						</section>
+										
+										
+						</div>
+					</section>
 					</td>
 				</tr>
 			</tbody>

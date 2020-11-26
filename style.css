@@ -106,9 +106,12 @@ body, html {
 	text-decoration: none;
 }
 section {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    overflow: auto;
+	line-height: 1.5;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: Arial, Helvetica, self-serif;
+	text-align: left;
+	text-align: justify;
 }
 .sectionBG {
    	overflow: auto;
@@ -132,18 +135,7 @@ h2 {
 	margin-top: 10px;
 	text-align: center;
 }
-tbody, td, tr, table {
-	margin: 0px;
-	border-spacing: 0px;
-	padding: 0px;
-}
-table {
-	margin: 0px;
-	border-spacing: 0px;
-	padding: 0px;
-	margin-left: 20%; 
-	margin-right: 20%;
-}
+
 .warning {
 	line-height: 1.5;
 	margin-top: 15px;
@@ -176,7 +168,9 @@ p {
 	margin-bottom: 10px;
 	font-family: Arial, Helvetica, self-serif;
 	text-align: left;
+	text-align: justify;
 }
+/*peidetud teksti element*/
 #more{display:none;}
 .card {
   width:300px;
@@ -186,6 +180,7 @@ p {
   font-size: 18px;
   box-shadow: 0  0 5px 4px rgba(0,0,0,0.33);
 }
+/*Nupp "Loe lähemalt"*/
 button {
   padding: 10px 15px;
   border: black 2px solid;
@@ -193,13 +188,35 @@ button {
   background: transparent;
   transition: 0.5s;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 button:hover {
   transform: scale(1.2) translateX(8px);
 }
-.saunad{
-	margin: 10px 10px 10px 10px;
-	float:center;
-	width:600px;
-	height:auto;
+
+.img{
+	margin: 15px;
+	float: right;
+	width: 400px;
+	height: auto;
+	border-radius: 15px 15px 15px 15px;
+}
+tbody, td, tr, table {
+	margin: 0px;
+	border-spacing: 0px;
+	padding: 0px;
+}
+table.layout{
+	margin: 0px;
+	border-spacing: 0px;
+	padding: 0px;
+	margin-left: 20%; 
+	margin-right: 20%;
+}
+iframe {
+	width: 450px;
+	height: 250px;
+	border: 0;
+	float: left;
+	margin-right: 20px;
 }
