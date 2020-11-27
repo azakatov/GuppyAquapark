@@ -1,5 +1,5 @@
 body, html {
-	font-family:  LiberationSans;
+	font-family:  Arial, Helvetica, self-serif;
 	font-size: 18px;
 	margin: 0px;
 	background-image: url("backgrounds/background3.jpg");
@@ -8,6 +8,7 @@ body, html {
 	background-size: cover;
 	text-align: justify;
 	height: 101%;
+	line-height: 1.5;
 }
 #navbar{
 	margin-top: 0px;
