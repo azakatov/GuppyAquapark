@@ -228,6 +228,9 @@ table.layout{
 	margin-left: 20%; 
 	margin-right: 20%;
 }
+table.hinnakiri{
+	width: 200%;
+}
 iframe {
 	width: 450px;
 	height: 250px;
