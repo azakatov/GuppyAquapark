@@ -7,7 +7,7 @@ Projekti käigus oli loodud veebileht, mis tutvustab kasutajale Guppy Veekeskust
 2. Saada uusi ja arendada olemasolevaid oskusi ja teadmisi veebilehe koostamises, rühmas töötamises jpt. 
 
 
-<h3>Veebilehe lõid:</h3>
+<h3>Projekti tiimiliikmed ja tiimisisene tööjaotus:</h3>
 
 * Anton Zakatov: veebilehe ühise stiili läbimõtlemine; veebilehe ülesehituse koostamine; lehtede Pealeht, Bowling ja Hinnakiri koostamine; lehtede Veepark, Saunakeskus, Massaaž, Jõusaal ja Kontakt parandamine ning arendamine; videote ja fotode kogumine, probleemide lahendamine
 
