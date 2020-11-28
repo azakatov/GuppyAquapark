@@ -4,10 +4,11 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Guppy Aquapark</title>
+		<link rel="icon" href="icon.png">
 		<link rel="stylesheet" href="style.css">
 		<script src="javascript/hyphenate.js"></script>
-		<script src="javascript/WindowOnScroll.js" defer></script>
-		<script src="javascript/Slideshow.js" defer></script>
+		<script src="javascript/WindowOnScroll.js"></script>
+		<!-- Slideshow.js initialization is located at the end of the <body> -->
 	</head>
 	
 	<body>
@@ -21,18 +22,16 @@
 					</td>
 					<td class="sticky">
 						<ul id="navbar">
-							<li><a href="veepark.html">Veepark</a></li>	
+							<li><a href="veepark.html">Veepark</a></li>
+							<li><a href="saunakeskus.html">Saunakeskus</a></li>
 							<li class="dropdown">
 								<a class="dropbtn" href="#">Teenused</a>
 									<div class="dropdown-content">
-										<a href="saunakeskus.html">Saunakeskus</a>
-										<a href="veepark.html">Veepark</a>
 										<a href="jousaal.html">Jõusaal</a>
 										<a href="massage.html">Massaaž</a>
 									</div>
 							</li>
-							<li><a href="hinnakiri.html">Hinnakiri</a></li>
-							<li><a href="meist.html">Meist</a></li>
+							<li><a href="bowling.html">Bowling</a></li>
 							<li><a href="kontakt.html">Kontakt</a></li>
 						</ul>
 					</td>
@@ -49,9 +48,9 @@
 									</p>
 									
 									<div class="slideshow-container">
-										<div class="mySlides fade"><img class="slideshowimg" src="slideshow/pealeht/slideshow1.jpg"></div>
-										<div class="mySlides fade"><img class="slideshowimg" src="slideshow/pealeht/slideshow2.jpg"></div>
-										<div class="mySlides fade"><img class="slideshowimg" src="slideshow/pealeht/slideshow3.jpg"></div>
+										<div class="mySlides fade"><img class="slideshowimg" src="slideshow/pealeht/slideshow1.jpg" alt="aqua1"></div>
+										<div class="mySlides fade"><img class="slideshowimg" src="slideshow/pealeht/slideshow2.jpg" alt="aqua2"></div>
+										<div class="mySlides fade"><img class="slideshowimg" src="slideshow/pealeht/slideshow3.jpg" alt="aqua3"></div>
 									</div>						
 									
 									<p>
@@ -86,5 +85,6 @@
 			<a href="http://facebook.com/groups/GuppyAqua"><img class="icon" src="icons/facebook.png"  alt="iconFB"> GuppyAqua</a> &nbsp;&nbsp;&nbsp;
 			<a href="https://www.instagram.com/AquaparkGuppy/"><img class="icon" src="icons/instagram.svg"  alt="iconIG"> AquaparkGuppy</a>
 		</div>
+		<script src="javascript/Slideshow.js"></script>
 	</body>
 </html>

@@ -7,7 +7,7 @@ function readMore() {
   
   if (dots.style.display === "none") {
     dots.style.display = "inline";
-    bttn.innerHTML = "Loe lähemalt meie saunastest";
+    bttn.innerHTML = "Loe lähemalt Arnoldist Schwarzeneggerist";
     more.style.display = "none";
   } else {
       dots.style.display = "none";

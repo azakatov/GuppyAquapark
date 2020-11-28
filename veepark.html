@@ -4,10 +4,11 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Veepark :: Guppy Aquapark</title>
+		<link rel="icon" href="icon.png">
 		<link rel="stylesheet" href="style.css">
 		<script src="javascript/hyphenate.js"></script>
-		<script src="javascript/WindowOnScroll.js" defer></script>
-		<script src="javascript/Slideshow.js" defer></script>
+		<script src="javascript/WindowOnScroll.js"></script>
+		<!-- Slideshow.js initialization is located at the end of the <body> -->
 	</head>
 	
 	<body>
@@ -21,18 +22,16 @@
 					</td>
 					<td class="sticky">
 						<ul id="navbar">
-							<li><a href="veepark.html">Veepark</a></li>	
+							<li><a href="veepark.html">Veepark</a></li>
+							<li><a href="saunakeskus.html">Saunakeskus</a></li>
 							<li class="dropdown">
 								<a class="dropbtn" href="#">Teenused</a>
 									<div class="dropdown-content">
-										<a href="saunakeskus.html">Saunakeskus</a>
-										<a href="veepark.html">Veepark</a>
 										<a href="jousaal.html">Jõusaal</a>
 										<a href="massage.html">Massaaž</a>
 									</div>
 							</li>
-							<li><a href="hinnakiri.html">Hinnakiri</a></li>
-							<li><a href="meist.html">Meist</a></li>
+							<li><a href="bowling.html">Bowling</a></li>
 							<li><a href="kontakt.html">Kontakt</a></li>
 						</ul>
 					</td>
@@ -48,19 +47,25 @@
 								</p>
 									
 								<div class="slideshow-container">
-									<div class="mySlides fade"><img class="slideshowimg" src="slideshow/veepark/veepark1.jpg"></div>
-									<div class="mySlides fade"><img class="slideshowimg" src="slideshow/veepark/veepark2.jpg"></div>
-										<div class="mySlides fade"><img class="slideshowimg" src="slideshow/veepark/veepark3.jpg"></div>
-								</div>						
-									
-								<p>
+									<div class="mySlides fade"><img class="slideshowimg" src="slideshow/veepark/veepark1.jpg" alt="veepark1"></div>
+									<div class="mySlides fade"><img class="slideshowimg" src="slideshow/veepark/veepark2.jpg" alt="veepark2"></div>
+									<div class="mySlides fade"><img class="slideshowimg" src="slideshow/veepark/veepark3.jpg" alt="veepark3"></div>
+								</div>		
+								<b>Hinnad:</b><br> 								
+								<ul>
+									<li>6€/2h (ainult veepark) ja 12€/2h (sauna- ja veekeskus) 
+									<li>Vesivõimlemine – 5.50€/2h
+									<li>Vesiartoobika – 5.00€/2h
+									<li>Ujula 20x2h kaart – 50€
+								</ul>
+								<p class="hyphenate">
 									Veepargi tõmbenumbriks on erinevad liutorud. Kokku neid on 8. Kõik need on erineva pikkusega ning mõeldud erinevatele vanusegruppidele.
 									Veepargi keskel on 5 alusliutorust. Suurim nendest on 200-meetriline liutoru nimega "Peensool", mis on kõige pikem liutoru maailmas.
 									Ülejäänud liutorude pikkused on 50-100 meetrit. Samuti kõige pisemad külastajad saavad lustida kahel väikestel liumägedel ja lõbusasti sulistada lastebasseinis.
 									Ja viimane liutoru nimega "Kamikaze" on kõige ektremaalsem liutoru veepargis ja võib olla ka maailmas. Aga see on keelatud vanusegruppile kuni 18 aastat ning sobib ainult nendele täiskasvanutele, kes on ammu adrenaliiniga puutunud.<br>
 								</p>
 								<iframe src="https://www.youtube.com/embed/DAIvPSsxbPo"></iframe>
-								<p>
+								<p class="hyphenate">
 									Veepargis saab ka kätt harjutada korvpallis ning jõudu proovida veekahuri all. Põnevust loovad  veekardinad, mille taga on koopad istepinkide ja veemassaažiga, purskkaev, langev veejuga, mullivannid ja vastuvoolu ujumise võimalus. 
 									Veepargi külastajatel on võimalus einestada kohvikus ja suveperioodil lõõgastuda päikeseterrassil. Korraga mahutab veekeskus oma kahele korrusele 700 külalist. Veekeskuses leiavad tegevust nii suured kui väikesed, nii noored kui vanad veesõbrad.
 									Julgemaid ootab 4 meetri kõrgusel asuv hüppeplatvorm, vesi seal all on nelja meetri sügavune. Lõbusa adrenaliinisüsti saavad kõik liutorudest ja kärestikulisest mägijõest alla tuhisejad.
@@ -78,5 +83,6 @@
 			<a href="http://facebook.com/groups/GuppyAqua"><img class="icon" src="icons/facebook.png"  alt="iconFB"> GuppyAqua</a> &nbsp;&nbsp;&nbsp;
 			<a href="https://www.instagram.com/AquaparkGuppy/"><img class="icon" src="icons/instagram.svg"  alt="iconIG"> AquaparkGuppy</a>
 		</div>
+		<script src="javascript/Slideshow.js"></script>
 	</body>
 </html>
