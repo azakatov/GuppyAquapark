@@ -138,7 +138,9 @@ h2 {
 	margin-top: 10px;
 	text-align: center;
 }
-
+h3 {
+	text-align: center;
+}
 .warning {
 	line-height: 1.5;
 	margin-top: 15px;
@@ -148,7 +150,7 @@ h2 {
 }
 /* Solution from: https://stackoverflow.com/questions/3186688/drop-shadow-for-png-image-in-css */
 .shadowed {
-    -webkit-filter: drop-shadow(3px 3px 3px #222);
+    /* -webkit-filter: drop-shadow(3px 3px 3px #222); */
 	filter: drop-shadow(3px 3px 3px #222);
 	padding-top: 5px;
 	width: 150px;
@@ -239,7 +241,7 @@ iframe {
 	float: left;
 	margin-bottom: 10px;
 	margin-left: 20px;
-	margin-right: 20px;
+	margin-right: 30px;
 }
 iframe.map {
 	width: 450px;
