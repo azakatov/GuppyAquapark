@@ -29,7 +29,7 @@ Projekti käigus oli loodud veebileht, mis tutvustab kasutajale Guppy Veekeskust
 <h5>Fotod</h5>
 
 * https://unsplash.com
-* https://et.wikipedia.org/wiki/Arnold_Schwarzenegger#/media/Fail:Arnold_Schwarzenegger_by_Gage_Skidmore_4.jpg
+* https://commons.wikimedia.org/wiki/File:Arnold_Schwarzenegger_by_Gage_Skidmore_4.jpg
 * https://aurakeskus.ee/
 * https://www.saunainter.com/
 	
