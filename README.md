@@ -3,6 +3,7 @@ Projekti käigus oli loodud veebileht, mis tutvustab kasutajale Guppy Veekeskust
 
 
 <h3>Projekti eesmärgiks oli:</h3>
+
 1. Tutvustada kasutajale väljamõeldud veekeskuse erinevaid teenuseid, atraktsioone ning jutustada, mida ennast veekeskus kujutab, millega võib seal tegeleda ning saada teist huvitavat ja olulist infot.
 2. Saada uusi ja arendada olemasolevaid oskusi ja teadmisi veebilehe koostamises, rühmas töötamises jpt. 
 
