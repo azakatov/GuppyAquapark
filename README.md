@@ -22,6 +22,7 @@ Projekti käigus oli loodud veebileht, mis tutvustab kasutajale Guppy Veekeskust
 * Versioonihaldustarkvara Git
 * Github
 * WinSCP veebilehe laadimiseks kodu.ut.ee lehele
+* FreeLogoDesing: https://www.freelogodesign.org/
 
 
 <h3>Kasutatud materjalid</h3>
