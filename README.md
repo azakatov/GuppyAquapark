@@ -47,6 +47,7 @@ Projekti käigus oli loodud veebileht, mis tutvustab kasutajale Guppy Veekeskust
 * http://www.terviseparadiis.ee/
 * http://tasapisi.ee/leilisaun/
 * https://viimsi.kuulsaal.ee/
+* https://martinkiho.com/eksimused-jousaalis/
 
 <h5>JavaScript (scriptide kirjelduse saab leida JavaScripti failide sees)</h5>
 
