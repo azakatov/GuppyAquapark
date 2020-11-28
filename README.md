@@ -22,6 +22,7 @@ Projekti käigus oli loodud veebileht, mis tutvustab kasutajale Guppy Veekeskust
 * Versioonihaldustarkvara Git
 * Github
 * WinSCP veebilehe laadimiseks kodu.ut.ee lehele
+* FreeLogoDesing: https://www.freelogodesign.org/
 
 
 <h3>Kasutatud materjalid</h3>
@@ -46,6 +47,7 @@ Projekti käigus oli loodud veebileht, mis tutvustab kasutajale Guppy Veekeskust
 * http://www.terviseparadiis.ee/
 * http://tasapisi.ee/leilisaun/
 * https://viimsi.kuulsaal.ee/
+* https://martinkiho.com/eksimused-jousaalis/
 
 <h5>JavaScript (scriptide kirjelduse saab leida JavaScripti failide sees)</h5>
 
