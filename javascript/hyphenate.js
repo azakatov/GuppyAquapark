@@ -1,4 +1,5 @@
-/*
+/*  Note: You are not allowed to remove or modify the licensing at the beginning of the script!
+ *
  *  Hyphenator 5.3.0 - client side hyphenation for webbrowsers
  *  Copyright (C) 2017  Mathias Nater, Zürich (mathiasnater at gmail dot com)
  *  https://github.com/mnater/Hyphenator
